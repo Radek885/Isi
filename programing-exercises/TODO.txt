@@ -1,1 +1,2 @@
 1. Popraw sposób z użyciem isinstance w zad1
+2. Ogarnij drugi sposób do zad 5
