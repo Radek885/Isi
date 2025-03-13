@@ -8,8 +8,8 @@ def check_digit():
     else:
         print(f"{znak} nie jest cyfrą")
 
-    # Sposób 2: Funkcja isinstance()
-    if isinstance(znak, int):
+    # Sposób 2: sprawdzenie wartosci char
+    if ord(znak) >= 48 and ord(znak) <= 57:
         print(f"{znak} jest cyfrą")
     else:
         print(f"{znak} nie jest cyfrą")
