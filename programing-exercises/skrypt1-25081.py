@@ -1,14 +1,11 @@
-# skrypt1-25081.py
 def check_digit():
     znak = input("Podaj pojedynczy znak: ")[0]
 
-    # Sposób 1: Funkcja isdigit()
     if znak.isdigit():
         print(f"{znak} jest cyfrą")
     else:
         print(f"{znak} nie jest cyfrą")
 
-    # Sposób 2: sprawdzenie wartosci char
     if ord(znak) >= 48 and ord(znak) <= 57:
         print(f"{znak} jest cyfrą")
     else:

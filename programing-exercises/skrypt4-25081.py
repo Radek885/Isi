@@ -1,4 +1,3 @@
-# skrypt4-25081.py
 def find_all_substrings():
     text = input("Podaj łańcuch znaków: ")
     substring = input("Podaj ciąg do wyszukania: ")

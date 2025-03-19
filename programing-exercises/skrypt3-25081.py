@@ -1,4 +1,3 @@
-# skrypt3-25081.py
 def find_substring():
     text = input("Podaj łańcuch znaków: ")
     substring = input("Podaj ciąg do wyszukania: ")

@@ -1,4 +1,3 @@
-# skrypt2-25081.py
 def check_number():
     liczba = input("Podaj łańcuch znaków: ")
     
