@@ -1,5 +1,3 @@
-# skrypt25-25081.py
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -11,4 +9,4 @@ def get_links(url):
 if __name__ == '__main__':
     url = 'https://example.com'
     links = get_links(url)
-    print("Hiper³¹cza:", links)
+    print("Hiperï¿½ï¿½cza:", links)

@@ -1,5 +1,3 @@
-# skrypt22-25081.py
-
 def find_longest_word(filename):
     with open(filename, 'r') as file:
         words = file.read().split()
@@ -12,5 +10,5 @@ def find_words_with_length(filename, length):
 
 if __name__ == '__main__':
     filename = 'wordlist_10000.txt'
-    print("Najd³u¿szy wyraz:", find_longest_word(filename))
-    print("Wyrazy o d³ugoœci 10:", find_words_with_length(filename, 10))
+    print("Najdï¿½uï¿½szy wyraz:", find_longest_word(filename))
+    print("Wyrazy o dï¿½ugoï¿½ci 10:", find_words_with_length(filename, 10))

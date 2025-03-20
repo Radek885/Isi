@@ -1,5 +1,3 @@
-# skrypt10-25081.py
-
 def generate_alphabet():
     return ''.join(chr(i) for i in range(ord('a'), ord('z')+1))
 

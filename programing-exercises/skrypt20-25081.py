@@ -1,17 +1,15 @@
-# skrypt20-25081.py
-
 import random
 
 def guess_number():
     number = random.randint(1, 100)
     while True:
-        guess = int(input("Zgadnij liczbê (1-100): "))
+        guess = int(input("Zgadnij liczbï¿½ (1-100): "))
         if guess < number:
-            print("Za ma³a liczba.")
+            print("Za maï¿½a liczba.")
         elif guess > number:
-            print("Za du¿a liczba.")
+            print("Za duï¿½a liczba.")
         else:
-            print("Gratulacje! Zgad³eœ liczbê.")
+            print("Gratulacje! Zgadï¿½eï¿½ liczbï¿½.")
             break
 
 if __name__ == '__main__':

@@ -1,5 +1,3 @@
-# skrypt17-25081.py
-
 class Dog:
     def __init__(self, name, age, coat_color):
         self.name = name

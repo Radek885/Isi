@@ -1,5 +1,3 @@
-# skrypt14-25081.py
-
 def print_numbers_divisible_by_3_and_4():
     count = 0
     for i in range(1, 101):

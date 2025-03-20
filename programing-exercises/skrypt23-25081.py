@@ -1,5 +1,3 @@
-# skrypt23-25081.py
-
 import random
 import string
 

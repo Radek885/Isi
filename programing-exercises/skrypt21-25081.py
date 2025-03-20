@@ -1,5 +1,3 @@
-# skrypt21-25081.py
-
 class Animal:
     def __init__(self, name, age, sex):
         self.name = name

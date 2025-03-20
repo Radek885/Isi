@@ -1,5 +1,3 @@
-# skrypt24-25081.py
-
 import csv
 
 def create_pc_csv(filename):

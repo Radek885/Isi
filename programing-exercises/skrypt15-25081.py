@@ -1,5 +1,3 @@
-# skrypt15-25081.py
-
 def add_numbers_divisible_by_3_or_5():
     numbers = []
     for i in range(1, 101):
