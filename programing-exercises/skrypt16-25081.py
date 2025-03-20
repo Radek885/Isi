@@ -2,5 +2,5 @@ def potega(x):
     return x ** 3
 
 if __name__ == '__main__':
-    x = int(input("Wprowad� liczb�: "))
-    print(f"{x} do pot�gi 3:", potega(x))
+    x = int(input("Wprowadz liczbe: "))
+    print(f"{x} do potegi 3:", potega(x))

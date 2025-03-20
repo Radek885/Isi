@@ -3,5 +3,5 @@ def replace_letters(sentence):
     return ''.join(replacements.get(c, c) for c in sentence)
 
 if __name__ == '__main__':
-    sentence = input("Wprowad� sentencj�: ")
+    sentence = input("Wprowadz sentencje: ")
     print("Zmodyfikowana sentencja:", replace_letters(sentence))

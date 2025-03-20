@@ -3,13 +3,13 @@ import random
 def guess_number():
     number = random.randint(1, 100)
     while True:
-        guess = int(input("Zgadnij liczb� (1-100): "))
+        guess = int(input("Zgadnij liczbe w zakresie od 1 do 100): "))
         if guess < number:
-            print("Za ma�a liczba.")
+            print("Za mala liczba.")
         elif guess > number:
-            print("Za du�a liczba.")
+            print("Za duza liczba.")
         else:
-            print("Gratulacje! Zgad�e� liczb�.")
+            print("Gratulacje! Zgadles liczbe.")
             break
 
 if __name__ == '__main__':
