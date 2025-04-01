@@ -10,5 +10,5 @@ def find_words_with_length(filename, length):
 
 if __name__ == '__main__':
     filename = 'wordlist_10000.txt'
-    print("Najd�u�szy wyraz:", find_longest_word(filename))
-    print("Wyrazy o d�ugo�ci 10:", find_words_with_length(filename, 10))
+    print("Najdluzszy wyraz:", find_longest_word(filename))
+    print("Wyrazy o dlugosci 10:", find_words_with_length(filename, 10))

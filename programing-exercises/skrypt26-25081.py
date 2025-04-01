@@ -12,9 +12,9 @@ def get_homes(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     homes = []
-    for offer in soup.find_all('div', class_='offer-item'):
-        header_name = offer.find('span', class_='offer-item-title').text
-        price = offer.find('span', class_='offer-item-price').text
+    for offer in soup.find_all('article', class_='css-136g1q2 eg92do40'):
+        header_name = offer.find('p', class_='css-u3orbr e1g5xnx10').text
+        price = offer.find('span', class_='css-2bt9f1 evk7nst0').text
         price_for_m2 = offer.find('span', class_='offer-item-price-per-m').text
         homes.append(Home(header_name, price, price_for_m2))
     return homes
