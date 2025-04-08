@@ -1,0 +1,20 @@
+Exercise
+
+    Write a query to select the body masses from penguins that are less
+    than 3000.0 grams.
+
+    select
+            body_mass_g
+    from penguins
+    where body_mass_g < 3000
+
+
+    Write another query to select the species and sex of penguins that
+    weight less than 3000.0 grams. This shows that the columns displayed
+    and those used in filtering are independent of each other.
+
+    select
+            species,
+            sex
+    from penguins
+    where body_mass_g < 3000;

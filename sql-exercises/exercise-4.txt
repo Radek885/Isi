@@ -1,0 +1,21 @@
+Exercise
+
+    Use the not operator to select penguins that are not Gentoos.
+
+    select
+        species
+    from penguins
+    where species != 'Gentoos';
+
+    SQL's or is an inclusive or: it succeeds if either or both conditions
+    are true. SQL does not provide a specific operator for exclusive
+    or, which is true if either but not both conditions are true, but the
+    same effect can be achieved using and, or, and not. Write a query to
+    select penguins that are female or on Torgersen Island but not both.
+
+    select
+        species,
+        sex,
+        island
+    from penguins
+    where (sex = 'FEMALE' and island != 'Torgersen') or (sex != 'FEMALE' and island = 'Torgersen');
