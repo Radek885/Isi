@@ -1,0 +1,12 @@
+Zad 1
+select 1;
+
+Zad 2
+select * from little_penguins;
+
+Zad 3
+.headers on
+.mode markdown
+select * from little_penguins;
+
+Zad 4
