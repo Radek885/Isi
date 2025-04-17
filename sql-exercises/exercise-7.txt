@@ -1,0 +1,15 @@
+
+
+    1. Write a query to find penguins whose body mass is known but whose sex is not.
+
+    2. Write another query to find penguins whose sex is known but whose body mass is not.
+
+    select *
+    from penguins
+    where body_mass_g IS NOT NULL
+    AND sex IS NULL;
+
+    select *
+    from penguins
+    where sex IS NOT NULL
+    AND body_mass_g IS NULL;

@@ -9,3 +9,7 @@ Write a single query that calculates and returns:
     depth.
 
     
+    select
+        species || ' ' || island as what_where,
+        bill_length_mm / bill_depth_mm as bill_ratio
+    from penguins;
