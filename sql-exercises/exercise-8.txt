@@ -1,0 +1,5 @@
+What is the average body mass of penguins that weight more than 3000.0 grams?
+
+select avg(body_mass_g) as avg_body_mass
+from penguins
+where body_mass_g > 3000.0;

@@ -1,0 +1,11 @@
+Explain why the output of the previous query has a blank line before the rows for female and male penguins.
+
+Puste miejce przy poprzednim pytaniu wynika z faktu że istnieją wiersze w których płeć posiada wartość NULL, ta jest wyświetlana  domyślnie jako puste pole.
+
+Write a query that shows each distinct body mass in the penguin dataset and the number of penguins that weigh that much.
+
+select body_mass_g, count(*) as count
+from penguins
+where body_mass_g is not NULL
+group by body_mass_g
+order by body_mass_g;
