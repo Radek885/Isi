@@ -1,0 +1,8 @@
+Using an in-memory database, define a table called notes with two text
+columns author and note and then add three or four rows. Use a query
+to check that the notes have been stored and that you can (for example)
+select by author name.
+
+What happens if you try to insert too many or too few values into notes?
+What happens if you insert a number instead of a string into the note
+field?
