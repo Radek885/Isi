@@ -1,0 +1,11 @@
+Exercise
+
+    Write a SQL query to select the sex and body mass
+    columns from the little_penguins in that order,
+    sorted such that the largest body mass appears first.
+
+    select
+            sex,
+            body_mass_g
+    from little_penguins
+    order by body_mass_g desc;

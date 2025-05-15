@@ -1,0 +1,16 @@
+Exercise
+
+Write a query that uses filter to calculate the average body masses of heavy
+penguins (those over 4500 grams) and light penguins (those under 3500 grams)
+simultaneously. Is it possible to do this using where instead of filter?
+
+select
+    avg(body_mass_g) filter (where body_mass_g > 4500) as avg_heavy,
+    avg(body_mass_g) filter (where body_mass_g < 3500) as avg_light
+from penguins;
+
+przy pomocy podzapytań można osiągnąć identyczny efekt bez użycia filter
+
+select
+    (select avg(body_mass_g) from penguins where body_mass_g > 4500) as avg_heavy,
+    (select avg(body_mass_g) from penguins where body_mass_g < 3500) as avg_light;

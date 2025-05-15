@@ -1,0 +1,4 @@
+How many different body masses are in the penguins dataset?
+
+select count(distinct body_mass_g) as unique_body_masses
+from penguins;
