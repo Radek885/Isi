@@ -1,3 +1,5 @@
+link do zadań: https://github.com/zacniewski/materials-about-integration-of-IT-systems/tree/main
+
 sqlite3.exe db/penguins.db
 
 .headers on
