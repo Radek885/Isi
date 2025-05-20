@@ -13,7 +13,7 @@ create table notes (
 );
 
 insert into notes values
-('Jozef', 'Narud wspanialy, tylko ludzie kurwy'),
+('Jozef', 'Narod wspanialy, tylko ludzie kurwy'),
 ('Jozef', 'Kto nie byl za mlodu socjalista ten na starosc bedzie skurwysynem'),
 ('Jozef', 'Zdanie jest jak dupa, kazdy ma swoja');
 

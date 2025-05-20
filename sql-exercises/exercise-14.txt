@@ -1,0 +1,32 @@
+Saving and restoring data as text:
+
+    1. Re-create the notes table in an in-memory database and then use
+    SQLite's .output and .dump commands to save the database to a
+    file called notes.sql. Inspect the contents of this file: how
+    has your data been stored?
+
+    2. Start a fresh SQLite session and load notes.sql using the .read
+    command. Inspect the database using .schema and select *: is
+    everything as you expected?
+
+    .output notes.sql
+    .dump
+    .read notes.sql
+
+Saving and restoring data in binary format:
+
+    1. Re-create the notes table in an in-memory database once again
+    and use SQLite's .backup command to save it to a file
+    called notes.db. Inspect this file using od -c notes.db or a text
+    editor that can handle binary data: how has your data been stored?
+
+    2. Start a fresh SQLite session and load notes.db using the .restore
+    command. Inspect the database using .schema and select *: is
+    everything as you expected?
+
+    .backup notes.db
+    
+    Plik zawiera w sobie polecenia tworzące tabele a nastepnie dane
+    wierszy zapisane w odwrotnej kolejności
+
+    po inporcie wszystko jest ok
