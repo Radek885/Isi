@@ -4,10 +4,10 @@
 **Treść zadania:**
 Program sprawdza, czy wczytany pojedynczy znak jest cyfrą. Jeśli wczytamy więcej znaków, bierze tylko pierwszy.
 
-**Plik z rozwiązaniem:** [skrypt01-25081.py](./skrypt01-25081.py)
+**Plik z rozwiązaniem:** [skrypt1-25081.py](./skrypt1-25081.py)
 
 **Zrzut ekranu:**
-![task-01](./screenshots/task-01.png)
+![task-01](./screenshots/zad1.png)
 
 ## task-02
 
@@ -15,10 +15,10 @@ Program sprawdza, czy wczytany pojedynczy znak jest cyfrą. Jeśli wczytamy wię
 Napisz program, który sprawdza czy wczytany łańcuch znakowy jest liczbą lub nie. Muszą być wczytane co najmniej dwa znaki.
 Hint: skorzystaj z funkcji all().
 
-**Plik z rozwiązaniem:** [skrypt02-25084](./skrypt02-25084.py)
+**Plik z rozwiązaniem:** [skrypt2-25081](./skrypt2-25081.py)
 
 **Zrzut ekranu:**
-![task-2](./screenshots/task-02.png)
+![task-2](./screenshots/zad2.png)
 
 ## task-03
 
@@ -26,10 +26,10 @@ Hint: skorzystaj z funkcji all().
 Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeks pierwszego wystąpienia ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji find().
 
-**Plik z rozwiązaniem:** [skrypt03-25084.py](./skrypt03-25084.py)
+**Plik z rozwiązaniem:** [skrypt3-25081.py](./skrypt3-25081.py)
 
 **Zrzut ekranu:**
-![task-3](./screenshots/task-03.png)
+![task-3](./screenshots/zad3.png)
 
 ## task-04
 
@@ -37,10 +37,10 @@ Hint: skorzystaj z funkcji find().
 Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeksy wszystkich wystąpień ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji split().
 
-**Plik z rozwiązaniem:** [skrypt04-25084.py](./skrypt04-25084.py)
+**Plik z rozwiązaniem:** [skrypt4-25081.py](./skrypt4-25081.py)
 
 **Zrzut ekranu:**
-![task-4](./screenshots/task-04.png)
+![task-4](./screenshots/zad4.png)
 
 ## task-05
 
