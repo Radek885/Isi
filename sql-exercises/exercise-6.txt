@@ -1,0 +1,8 @@
+Use SQLite's .nullvalue command to change the printed
+representation of null to the string null and then re-run
+the previous query. When will displaying null as null be
+easier to understand? When might it be misleading?
+
+Wyświetlanie braku danych jako "null" może ułatwić interpretację danych,
+natomiast może być mylące w sytuacji gdzy w komurce będzie
+wpisana wartość "null" jako string.

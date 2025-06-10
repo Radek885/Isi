@@ -1,0 +1,15 @@
+Exercise
+
+Write a single query that calculates and returns:
+
+    1 A column called what_where that has the species and island of each
+    penguin separated by a single space.
+
+    2 A column called bill_ratio that has the ratio of bill length to bill
+    depth.
+
+    
+    select
+        species || ' ' || island as what_where,
+        bill_length_mm / bill_depth_mm as bill_ratio
+    from penguins;

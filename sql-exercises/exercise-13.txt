@@ -1,0 +1,4 @@
+What happens if you try to delete rows that don't exist
+(e.g., all entries in work that refer to juna)?
+
+Polecenie sie wykona bez zwracania błędów, po prostu nie usunie nic bo żaden wiersz nie spełni kryteriów.

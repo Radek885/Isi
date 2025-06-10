@@ -1,0 +1,8 @@
+Find the least time each person spent on any job. Your output should
+show that mik and po each spent 0.5 hours on some job. Can you
+find a way to show the name of the job as well using the SQL you have
+seen so far?
+
+select work.person, MIN(job.billable), job.name
+from work join job on work.job = job.name
+group by work.person
