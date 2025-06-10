@@ -278,6 +278,8 @@
     Re-run the query shown above using where job = name
     instead of the full table.name notation. Is the shortened
     form easier or harder to read and more or less likely to cause errors?
+    
+    Użycie skróconej formy WHERE job = name działa, ale jest trudniejsze do czytania oraz bardziej podatne na błędy, szczególnie gdy kolumny o tych nazwach istnieją w obu tabelach lub gdy zapytania stają się bardziej złożone.
 
 **Zrzut ekranu:**
 ![Exercise 15](./screenshots/Exercise15.png)
