@@ -6,3 +6,16 @@ select by author name.
 What happens if you try to insert too many or too few values into notes?
 What happens if you insert a number instead of a string into the note
 field?
+
+create table notes (
+    author text,
+    note text
+);
+
+insert into notes values
+('Jozef', 'Narod wspanialy, tylko ludzie kurwy'),
+('Jozef', 'Kto nie byl za mlodu socjalista ten na starosc bedzie skurwysynem'),
+('Jozef', 'Zdanie jest jak dupa, kazdy ma swoja');
+
+Próba wpisania niewałściwej liczby wartości do tabeli poskutkuje błędem i nie dodaniem ich do bazy danych.
+Podanie liczby zamiast tekstu nie wyrzuci błędu i baza będzei działać nadal poprawnie.

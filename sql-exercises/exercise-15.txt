@@ -1,0 +1,4 @@
+Re-run the query shown above using where job = name
+instead of the full table.name notation. Is the shortened
+form easier or harder to read and more or less likely to cause errors?
+
